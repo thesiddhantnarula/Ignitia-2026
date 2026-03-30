@@ -1,0 +1,35 @@
+.mobileContainer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 36px 36px;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+.blurCircle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(to left, rgba(255, 193, 7, 0.125), rgba(255, 235, 59, 0.125));
+  filter: blur(40px);
+  z-index: -1;
+}
+
+.topleft {
+  top: -160px;
+  left: -160px;
+  width: 420px;
+  height: 420px;
+}
+
+.bottomright {
+  bottom: -120px;
+  right: -120px;
+  width: 280px;
+  height: 280px;
+}

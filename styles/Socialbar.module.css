@@ -1,0 +1,40 @@
+.socialSidebar {
+    width: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-45%);
+    margin-right: 50px;
+    z-index: 100;
+  }
+  
+  .socialMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .socialMenuItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 50%;
+  }
+  
+  .socialMenuItem:hover {
+    transform: scale(1.2);
+  }
+  
+  .icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+  
